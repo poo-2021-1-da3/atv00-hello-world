@@ -8,6 +8,6 @@ public class AppTest {
 
     @Test
     public void isGreetingHelloWorld() {
-        Assertions.assertEquals(new App().sayHello(), "Hello World!");
+        Assertions.assertEquals("Hello World!", new App().sayHello());
     }
 }
